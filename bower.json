@@ -1,0 +1,20 @@
+{
+  "name": "vanilla",
+  "homepage": "https://github.com/cream-lab/vanilla",
+  "authors": [
+    "taekyeom.oh <taekyeom.oh@nhnent.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
