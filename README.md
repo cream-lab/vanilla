@@ -10,24 +10,24 @@ Medium 같은 온라인 퍼블리싱 플랫폼을 지향하지만, 개인이 아
 * [Bower](http://bower.io/#install-bower)  
 
 # QuickStart
-1. Node.js 설치
-2. Bower 설치
+####1. Node.js 설치
+####2. Bower 설치  
 ```
 $ npm install -g bower
 ```
-3. Bower 를 이용한 모듈 설치
+####3. Bower 를 이용한 모듈 설치
 ```
 $ bower install
 ```
-4. gulp 설치
+####4. gulp 설치
 ```
 $ npm install -g gulp-cli
 ```
-5. gulp plugin 을 설치
+####5. gulp plugin 을 설치
 ```
 $ npm install
 ```
-6. gulp 명령어를 통한 프로젝트 실행
+####6. gulp 명령어를 통한 프로젝트 실행
 ```
 $ gulp
 ```
