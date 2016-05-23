@@ -6,6 +6,11 @@ bower_components
 .bower-registry
 .bower-tmp
 
+### Node ###
+node_modules
+
+### Public ###
+public
 
 ### Go ###
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
