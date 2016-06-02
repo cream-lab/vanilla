@@ -1,0 +1,26 @@
+{
+  "name": "vanilla",
+  "version": "0.0.1",
+  "description": "Cream lab. 멤버들의 첫 프로젝트.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cream-lab/vanilla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cream-lab/vanilla/issues"
+  },
+  "homepage": "https://github.com/cream-lab/vanilla#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-flatten": "^0.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-shell": "^0.5.2"
+  }
+}
