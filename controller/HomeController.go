@@ -1,4 +1,4 @@
-package HomeController
+package controller
 
 import (
 	"net/http"

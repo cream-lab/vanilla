@@ -8,7 +8,7 @@ import (
 func Router() *mux.Router {
 	router := mux.NewRouter()
 
-	router.HandleFunc("/", HomeController.Home)
-
+	router.HandleFunc("/", controller.Home)
+	
 	return router
 }
