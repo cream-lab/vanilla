@@ -5,8 +5,7 @@ import (
 	"text/template"
 )
 
-var tmpl = template.Must(template.ParseGlob("views/*.html"))
-
 func Home(w http.ResponseWriter, req *http.Request) {
+	var tmpl = template.Must(template.ParseGlob("views/index.html"))
 	tmpl.ExecuteTemplate(w, "index.html", nil)
 }

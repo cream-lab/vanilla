@@ -1,6 +1,9 @@
 package model
 
-import "time"
+import (
+	"strings"
+	"time"
+)
 
 type User struct {
 	Seq           int
@@ -32,4 +35,16 @@ var IdentityProviders = [...]string{
 
 func (idp IdentityProvider) String() string {
 	return IdentityProviders[idp-1]
+}
+
+func GetIdentityProvider(idp string) IdentityProvider {
+	switch strings.ToLower(idp) {
+	case "facebook":
+		return Facebook
+	case "google+":
+		return GooglePlus
+	case "twitter":
+		return Twitter
+	}
+	return Self
 }
